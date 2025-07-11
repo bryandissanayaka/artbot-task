@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artbot Task</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="banner-container">
+        <div class="banner">
+            <div class="carousel-container">
+                <div class="product-image">
+                    <img id="product-img" src="assets/micro-bags@2x.png" alt="Product" />
+                    <img id="product-img-next" src="assets/mens-scarf-and-briefcase@2x.png" alt="Product" style="opacity: 0;" />
+                </div>
+                <div class="logo">
+                    <img src="assets/logo.png" alt="Mulberry" />
+                </div>
+            </div>
+            
+            <div class="bottom-container">
+                <div class="navigation">
+                    <button class="nav-arrow left-arrow" id="prevBtn">
+                        <img src="assets/arrow.png" alt="Previous" />
+                    </button>
+                    
+                    <div class="product-info">
+                        <h2 id="product-title">Micro Bags</h2>
+                        <h2 id="product-title-next" style="opacity: 0;">Small Check<br>Merino Wool Scarf</h2>
+                    </div>
+                    
+                    <button class="nav-arrow right-arrow" id="nextBtn">
+                        <img src="assets/arrow.png" alt="Next" />
+                    </button>
+                </div>
+                
+                <div class="cta-container">
+                    <button class="cta-button">
+                        <img src="assets/cta-2x.png" alt="Shop Now" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="node_modules/gsap/dist/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
